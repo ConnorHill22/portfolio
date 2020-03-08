@@ -15,6 +15,11 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      chColors: {
+        100: '#dfdfdf',
+        200: 'rgba(0, 0, 0,.56)'
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -252,6 +257,9 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
+      '8xl': '6rem',
+      '9xl': '7rem',
     },
     fontWeight: {
       hairline: '100',
