@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="53" height="58" viewBox="0 0 53 58">
-  <defs>
-    <filter id="shadow">
-      <feDropShadow dx="20" dy="40" stdDeviation="20"/>
-    </filter>
-  </defs>
-  <path id="Polygon_3" filter="url(#shadow)" style="fill:#bf95ff" data-name="Polygon 3" class="cls-1" d="M29,0,58,53H0Z" transform="translate(0 58) rotate(-90)"/>
-</svg>
-

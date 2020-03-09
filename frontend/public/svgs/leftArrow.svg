@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="118" viewBox="0 0 113 118">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf95ff;
+      }
+
+      .cls-2 {
+        filter: url(#Polygon_3);
+      }
+    </style>
+    <filter id="Polygon_3" x="0" y="0" width="113" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.369"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Polygon_3-2" data-name="Polygon 3" class="cls-1" d="M22.859,11.223a7,7,0,0,1,12.282,0L52.331,42.64A7,7,0,0,1,46.19,53H11.81A7,7,0,0,1,5.669,42.64Z" transform="translate(30 78) rotate(-90)"/>
+  </g>
+</svg>

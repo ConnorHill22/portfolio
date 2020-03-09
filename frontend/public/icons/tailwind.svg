@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="23.4" viewBox="0 0 39 23.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="-0.889" x2="1" y2="1.889" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2383ae"/>
+      <stop offset="1" stop-color="#6dd7b9"/>
+    </linearGradient>
+  </defs>
+  <path id="tailwindcss-icon" class="cls-1" d="M9.75,20.6q1.95-7.8,9.75-7.8c7.8,0,8.775,5.85,12.675,6.825Q36.075,20.6,39,16.7q-1.95,7.8-9.75,7.8c-7.8,0-8.775-5.85-12.675-6.825Q12.675,16.7,9.75,20.6ZM0,32.3q1.95-7.8,9.75-7.8c7.8,0,8.775,5.85,12.675,6.825q3.9.975,6.825-2.925-1.95,7.8-9.75,7.8c-7.8,0-8.775-5.85-12.675-6.825Q2.925,28.4,0,32.3Z" transform="translate(0 -12.8)"/>
+</svg>

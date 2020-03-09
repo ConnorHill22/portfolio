@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.254" height="30" viewBox="0 0 21.254 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #264de4;
+      }
+
+      .cls-2 {
+        fill: #2965f1;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="layer1" transform="translate(-193.633 -276.362)">
+    <g id="g3013" transform="translate(193.633 276.362)">
+      <path id="polygon2989" class="cls-1" d="M95.887,100.62l-1.936,21.691-8.7,2.413-8.68-2.41L74.633,100.62Z" transform="translate(-74.633 -94.724)"/>
+      <path id="polygon2991" class="cls-2" d="M263.033,149.43l1.655-18.536H256V151.38Z" transform="translate(-245.373 -123.224)"/>
+      <path id="polygon2993" class="cls-3" d="M150.31,268.217l.238,2.661H156.5v-2.661Z" transform="translate(-145.876 -252.501)"/>
+      <path id="polygon2995" class="cls-3" d="M148.8,176.3h-6.672l.242,2.661h6.43Z" transform="translate(-138.177 -165.975)"/>
+      <path id="polygon2997" class="cls-3" d="M162.244,342.02v-2.768l-.012,0-2.963-.8-.189-2.122h-2.671l.373,4.178,5.45,1.513Z" transform="translate(-151.617 -316.626)"/>
+      <path id="path2999" d="M160,0h3.223V1.348h-1.875V2.7h1.875V4.043H160Z" transform="translate(-154.998)"/>
+      <path id="path3001" d="M226,0h3.223V1.172h-1.875v.234h1.875V4.1H226V2.871h1.875V2.637H226Z" transform="translate(-217.131)"/>
+      <path id="path3003" d="M292,0h3.223V1.172h-1.875v.234h1.875V4.1H292V2.871h1.875V2.637H292Z" transform="translate(-279.264)"/>
+      <path id="polygon3005" class="cls-4" d="M259.119,184.351l-.309,3.451-2.968.8v2.768l5.455-1.512.04-.45.625-7,.065-.715.48-5.385h-6.665v2.661h3.749l-.242,2.725h-3.507v2.661Z" transform="translate(-245.225 -165.975)"/>
+    </g>
+  </g>
+</svg>

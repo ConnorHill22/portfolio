@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.641" height="30" viewBox="0 0 34.641 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #41b883;
+      }
+
+      .cls-2 {
+        fill: #34495e;
+      }
+    </style>
+  </defs>
+  <g id="vue" transform="translate(-76.306 313.339)">
+    <g id="Group_18" data-name="Group 18" transform="translate(76.306 -313.339)">
+      <path id="Path_22" data-name="Path 22" class="cls-1" d="M-139.781,0l-4,6.928-4-6.928H-161.1l17.32,30,17.32-30Z" transform="translate(161.101)"/>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(83.234 -313.339)">
+      <path id="Path_23" data-name="Path 23" class="cls-2" d="M-94.358,0l-4,6.928-4-6.928h-6.392l10.392,18L-87.966,0Z" transform="translate(108.751)"/>
+    </g>
+  </g>
+</svg>

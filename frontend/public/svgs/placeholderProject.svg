@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384.5" height="196.252" viewBox="0 0 384.5 196.252">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #f5d6d6;
+        stroke: #d66666;
+      }
+
+      .cls-3 {
+        fill: #c9c9c9;
+        stroke: #000;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_29" data-name="Group 29" transform="translate(-828.5 -2863)">
+    <g id="Rectangle_40" data-name="Rectangle 40" class="cls-1" transform="translate(829 2863)">
+      <rect class="cls-4" width="384" height="195"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="383" height="194"/>
+    </g>
+    <path id="Path_36" data-name="Path 36" class="cls-2" d="M829,2913.822c141.032-3.645,165.764,37.754,174.632,52.781s-2.875,67.76,52.2,67.76,89.624-26.049,115.34-11.758,23.843,36.148,23.843,36.148H829Z"/>
+    <path id="Path_37" data-name="Path 37" class="cls-3" d="M1028.952,2904.489c17.289-16.695,82.739-36.337,121.967-7.268s49.337,54.025,40.359,81.441-67.691,36.635-108.307,41.622-69.029-1.379-73.045-41.622S1011.663,2921.184,1028.952,2904.489Z" transform="translate(12 -14)"/>
+  </g>
+</svg>
