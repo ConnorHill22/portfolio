@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-rows-12 px-4 pt-4 h-full">
-    <div class="bg-gray-300"></div>
+    <div class="grid grid-rows-9"></div>
   </div>
 </template>
 
