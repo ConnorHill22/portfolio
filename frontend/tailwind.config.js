@@ -16,6 +16,8 @@ module.exports = {
       white: '#fff',
 
       chColors: {
+        300: '#74f090',
+        400: '#BF95FF', 
         100: '#dfdfdf',
         200: 'rgba(0, 0, 0,.56)'
       },

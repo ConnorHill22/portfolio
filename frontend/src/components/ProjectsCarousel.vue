@@ -17,7 +17,7 @@
           <div class="row-span-1"></div>
           <div class="row-span-6">
             <div class="h-full ch-primaryTile">
-              <MainProjectCarousel />
+              <MainProjectCarousel v-bind:project="secondProject" />
             </div>
           </div>
           <div class="row-span-1"></div>
@@ -51,7 +51,7 @@ export default {
       projects: [
         {
           name: "Form Validator",
-          photo: "../../public/svgs/placeholderProject.svg",
+          photo: "placeholderProject.svg",
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores",
           githubUri: "https://github.com/ConnorHill22/formValidator",
@@ -60,38 +60,130 @@ export default {
             {
               name: "Vuejs",
               website: "https://vuejs.org/",
-              icon: "../../public/icons/vuejs.svg"
+              icon: "vuejs.svg"
             },
             {
               name: "Javascript",
               website: "https://www.javascript.com/",
-              icon: "../../public/icons/javascript.svg"
+              icon: "javascript.svg"
             },
             {
               name: "Flask",
               website: "https://flask.palletsprojects.com/en/1.1.x/",
-              icon: "../../public/icons/flask.svg"
+              icon: "flask.svg"
             },
             {
               name: "Python",
               website: "https://www.python.org/",
-              icon: "../../public/icons/python.svg"
+              icon: "python.svg"
             },
             {
               name: "HTML",
               website: "https://en.wikipedia.org/wiki/HTML",
-              icon: "../../public/icons/html.svg"
+              icon: "html.svg"
             },
             {
               name: "CSS",
               website: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
-              icon: "../../public/icons/css.svg"
+              icon: "css.svg"
+            }
+          ]
+        },
+        {
+          name: "Pizza Pizza",
+          photo: "placeholderProject.svg",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores",
+          githubUri: "https://github.com/ConnorHill22/formValidator",
+          websiteUri: "https://github.com/ConnorHill22/formValidator",
+          technologies: [
+            {
+              name: "Vuejs",
+              website: "https://vuejs.org/",
+              icon: "vuejs.svg"
+            },
+            {
+              name: "Javascript",
+              website: "https://www.javascript.com/",
+              icon: "javascript.svg"
+            },
+            {
+              name: "Flask",
+              website: "https://flask.palletsprojects.com/en/1.1.x/",
+              icon: "flask.svg"
+            },
+            {
+              name: "Python",
+              website: "https://www.python.org/",
+              icon: "python.svg"
+            },
+            {
+              name: "HTML",
+              website: "https://en.wikipedia.org/wiki/HTML",
+              icon: "html.svg"
+            },
+            {
+              name: "CSS",
+              website: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+              icon: "css.svg"
+            }
+          ]
+        },
+        {
+          name: "Forex Signals",
+          photo: "placeholderProject.svg",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores",
+          githubUri: "https://github.com/ConnorHill22/formValidator",
+          websiteUri: "https://github.com/ConnorHill22/formValidator",
+          technologies: [
+            {
+              name: "Vuejs",
+              website: "https://vuejs.org/",
+              icon: "vuejs.svg"
+            },
+            {
+              name: "Javascript",
+              website: "https://www.javascript.com/",
+              icon: "javascript.svg"
+            },
+            {
+              name: "Flask",
+              website: "https://flask.palletsprojects.com/en/1.1.x/",
+              icon: "flask.svg"
+            },
+            {
+              name: "Python",
+              website: "https://www.python.org/",
+              icon: "python.svg"
+            },
+            {
+              name: "HTML",
+              website: "https://en.wikipedia.org/wiki/HTML",
+              icon: "html.svg"
+            },
+            {
+              name: "CSS",
+              website: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+              icon: "css.svg"
             }
           ]
         }
       ]
     };
+  },
+  computed: {
+    firstProject() {
+      return this.projects[0]
+    },
+    secondProject() {
+      return this.projects[1]
+    },
+    thirdProject() {
+      return this.projects[2]
+    }
   }
+
 };
 </script>
 
