@@ -1,5 +1,5 @@
 <template>
-  <div class="grid h-full grid-cols-12">
+  <div class="grid h-full bg-gray-500 ch-projectCarouselGrid">
     <div class="col-span-1"></div>
     <div class="col-span-10 grid grid-cols-12">
       <div class="col-span-1  m-auto">
@@ -8,24 +8,23 @@
       <div class="col-span-10 grid grid-cols-3 gap-4 h-full">
         <div class="grid grid-rows-9 col-span-1">
           <div class="row-span-2"></div>
-          <div class="row-span-5">
-            <div class="ch-secondaryTile h-full"></div>
+          <div class="row-span-5 ch-sideCarousel ch-secondaryTile">
+            <h1></h1>
+            <SideProjectCarousel v-bind:project="firstProject" />
           </div>
           <div class="row-span-2 h-full"></div>
         </div>
         <div class="grid grid-rows-9 col-span-1">
           <div class="row-span-1"></div>
-          <div class="row-span-6">
-            <div class="h-full ch-primaryTile">
-              <MainProjectCarousel v-bind:project="secondProject" />
-            </div>
+          <div class="ch-primaryTile">
+            <MainProjectCarousel v-bind:project="secondProject" />
           </div>
           <div class="row-span-1"></div>
         </div>
         <div class="grid grid-rows-9 col-span-1">
           <div class="row-span-2"></div>
-          <div class="row-span-5">
-            <div class="ch-secondaryTile h-full"></div>
+          <div class="row-span-5 ch-secondaryTile">
+            <SideProjectCarousel v-bind:project="thirdProject" />
           </div>
           <div class="row-span-2"></div>
         </div>
@@ -40,11 +39,13 @@
 
 <script>
 import MainProjectCarousel from "../components/MainProjectCarousel";
+import SideProjectCarousel from "../components/SideProjectCarousel";
 
 export default {
   name: "ProjectsCarousel",
   components: {
-    MainProjectCarousel
+    MainProjectCarousel,
+    SideProjectCarousel
   },
   data() {
     return {
@@ -174,27 +175,34 @@ export default {
   },
   computed: {
     firstProject() {
-      return this.projects[0]
+      return this.projects[0];
     },
     secondProject() {
-      return this.projects[1]
+      return this.projects[1];
     },
     thirdProject() {
-      return this.projects[2]
+      return this.projects[2];
     }
   }
-
 };
 </script>
 
 <style>
+.ch-projectCarouselGrid {
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .ch-secondaryTile {
+  grid-row-start: 3;
+  grid-row-end: 8;
   border: solid 3px #74f090;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.37);
 }
 
 .ch-primaryTile {
+  grid-row-start: 2;
+  grid-row-end: 9;
   border: solid 3px #bf95ff;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.85);

@@ -1,17 +1,10 @@
 <template>
-  <div class="w-full h-full pt-4 px-4 pb-4 grid c-MainGrid">
-    <div class="row-span-1">
-      <h4 class="text-4xl font-thin">{{ project.name }}</h4>
-    </div>
-    <div class="row-span-3">
-      <img
-        class="h-full"
-        v-bind:src="require(`../../public/svgs/${project.photo}`)"
-        alt="App Picture"
-      />
-    </div>
-    <div class="row-span-2">
-      <p class="text-sm">{{ project.description }}</p>
+  <div class="w-full  p-4">
+    <!-- <div class="">
+      <h4 class="">{{ project.name }}</h4>
+    </div> -->
+    <!-- <div class="pb-10">
+      <img v-bind:src="require(`../../public/svgs/${project.photo}`)" alt="App Picture" />
     </div>
     <div class="grid grid-cols-2 my-auto gap-2 row-span-1">
       <div
@@ -36,16 +29,7 @@
           alt="Github icon"
         />
       </div>
-    </div>
-    <div class="my-auto row-span-1">
-      <ul class="grid ch-technologiesGrid">
-        <li style="justify-self: center;" v-for="item in project.technologies" :key="item.name">
-          <div>
-            <img v-bind:src="require(`../../public/icons/${item.icon}`)" alt="technolgy" />
-          </div>
-        </li>
-      </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -58,15 +42,10 @@ export default {
 
 <style>
 .c-MainGrid {
-  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: auto auto auto;
 }
 
 .ch-row {
   align-self: center;
-}
-
-.ch-technologiesGrid {
-  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-  grid-template-rows: auto;
 }
 </style>
