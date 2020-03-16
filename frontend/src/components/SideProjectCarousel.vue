@@ -1,11 +1,15 @@
 <template>
-  <div class="w-full  p-4">
-    <!-- <div class="">
-      <h4 class="">{{ project.name }}</h4>
-    </div> -->
-    <!-- <div class="pb-10">
-      <img v-bind:src="require(`../../public/svgs/${project.photo}`)" alt="App Picture" />
+  <div class="w-full h-full grid ch-sideProject p-4">
+    <div class="row-span-1">
+      <h4 class="text-2xl font-thin">{{ project.name }}</h4>
     </div>
+    <div class="row-span-3 w-full">
+      <img
+        class="ch-projectImage"
+        v-bind:src="require(`../../public/svgs/${project.photo}`)"
+        alt="App Picture"
+      />
+    </div> 
     <div class="grid grid-cols-2 my-auto gap-2 row-span-1">
       <div
         class="cursor-pointer hover:bg-gray-400  grid grid-cols-2 h-8 rounded-full py-1 px-2 border-solid border border-gray-600"
@@ -29,7 +33,7 @@
           alt="Github icon"
         />
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -41,8 +45,8 @@ export default {
 </script>
 
 <style>
-.c-MainGrid {
-  grid-template-rows: auto auto auto;
+.ch-sideProject {
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .ch-row {

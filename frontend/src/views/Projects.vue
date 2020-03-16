@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen grid grid-rows-3 gap-4">
+  <div class="h-screen grid ch-ProjectsView">
     <div style="align-self: end" class="row-span-1">
       <div class="grid grid-cols-5">
         <div class="col-span-1"></div>
@@ -20,7 +20,7 @@
         <div class="col-span-1"></div>
       </div>
     </div>
-    <div class="row-span-2">
+    <div class="row-span-3">
       <ProjectsCarousel />
     </div>
   </div>
@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style>
+.ch-ProjectsView {
+  grid-template-rows: repeat(4, 1fr)
+}
+
 .ch-greenUnderline {
   background-color: #74f090;
   height: 0.25rem;
